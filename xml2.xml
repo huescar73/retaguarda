@@ -1,0 +1,22 @@
+	<Items>  
+	
+      <Item PartNumber="872-AA">  
+        <Quantity>1</Quantity> 
+        <ProductName>Receptor GNSS</ProductName>  
+        <Modelo>V30 RTK</Modelo>  
+ 		<SN>12345678</SN> 
+      </Item>  
+      <Item PartNumber="872-AA">  
+        <Quantity>1</Quantity> 
+        <ProductName>Receptor GNSS</ProductName>  
+        <Modelo>V30 RTK</Modelo>  
+ 		<SN>12345678</SN>
+      </Item>  
+      <Item PartNumber="872-AA">  
+        <Quantity>2</Quantity> 
+        <ProductName>Baterias</ProductName>  
+        <Modelo>BL-5000</Modelo>  
+ 		<SN>-</SN>
+      </Item>  
+ 
+    </Items> 

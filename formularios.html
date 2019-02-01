@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+
+<head>
+
+    <title>Formulários 1.0.0</title>
+</head>
+
+<body>
+    <form method="get" action="?">
+        <form method="post" action="destino.php">
+            <label>User:</label>
+            <input type="text" name="tbxName" placeholder="informar nome do usuario."><br>
+            <br>
+            <label>Idade:</label>
+            <input type="number" name="tbxIdade" placeholder="informar a idade..." min="0" max="120"><br>
+
+            <br>
+            <label>Sexo:</label>
+            <input type="radio" name="tbxSexo" value="M">Masculino
+            <input type="radio" name="tbxSexo" value="F">Feminino
+            <input type="radio" name="tbxSexo" value="I">Indef.
+
+            <br>
+            <br>
+            <label>Interesses:</label>
+            <input type="checkbox" name="tbxAutomovel">Automóveis
+            <input type="checkbox" name="tbxBarco">Barcos
+            <input type="checkbox" name="tbxAviao">Aviões
+
+            <br>
+            <br>
+            <label>Est. Civil:</label>
+            <select name="tbxEstCivil">
+                <option value="S">Solteiro(a)</option>
+                <option value="C">Casado(a)</option>
+                <option value="D">Divorciado(a)</option>
+                <option value="V">Viúvo(a)</option>
+            </select>
+            <br>
+            <br>
+            <input type="reset" value="Limpar dados">
+            <input type="submit" value="Enviar dados">
+        </form>
+</body>
+
+</html>

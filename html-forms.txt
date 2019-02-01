@@ -1,0 +1,15 @@
+HTML FORMULARIOS
+
+<form>: delimita o FORMULARIOS
+    - method: define o método de envio dos dados
+    - action: define o endereco de destino dos dados
+<label>: insere nome de campo
+<input>: insete um campo
+    - text: texto livre
+    - number: formato numerico
+    - radio: botão radio
+    - checkbox: botão de checagem
+    - reset (botão que limpa)
+    - submit (botão que envia)
+<select> insere um campo de seleção
+    - <option> insere uma opção de seleção

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<itens>
+    <qtd_1>01</qtd_1>
+    <descr_1>Receptor GNSS</descr_1>
+	<modelo_1>V30 RTK</modelo_1>
+	<serial_1>11111111111</serial_1>
+	<check_1>chkbox</check_1>
+	<check2_1>chkbox</check2_1>
+	
+	<qtd_2>01</qtd_2>
+    <descr_2>Receptor é GNSS</descr_2>
+	<modelo_2>V30 RTK</modelo_2>
+	<serial_2>22222222222</serial_2>
+	<check_2>chkbox</check_2>
+	<check2_2>chkbox</check2_2>
+	
+	<qtd_3>04</qtd_3>
+	<descr_3>Bateria</descr_3>
+	<modelo_3>BL-5000</modelo_3>
+	<serial_3>-</serial_3>
+	
+	<qtd_4>02</qtd_4>
+	<descr_4>Carregador de Bateria GNSS</descr_4>
+	<modelo_4>CL-8410</modelo_4>
+	<serial_4>-</serial_4>
+	
+	<qtd_5>02</qtd_5>
+	<descr_5>Maleta de Transporte</descr_5>
+	<modelo_5>Hi-Target</modelo_5>
+	<serial_5>-</serial_5>
+	
+	<qtd_6>01</qtd_6>
+	<descr_6>Cabo de Transferência GPS Hi-Target</descr_6>
+	<modelo_6>GC-3</modelo_6>
+	<serial_6>-</serial_6>
+	
+	****COMUNICACAO
+	
+	<qtd_7>02</qtd_7>
+	<descr_7>Antena - Rádio Interno</descr_7>
+	<modelo_7>410~470MHz</modelo_7>
+	<serial_7>-</serial_7>
+	
+	<qtd_8>02</qtd_8>
+	<descr_8>Rádio Interno</descr_8>
+	<modelo_8>Hi-Target</modelo_8>
+	<serial_8>-</serial_8>
+	
+	<qtd_9>01</qtd_9>
+	<descr_9>Rádio Externo</descr_9>
+	<modelo_9>Hi-Target</modelo_9>
+	<serial_9>17051084</serial_9>
+	
+	<qtd_10>01</qtd_10>
+	<descr_10>Cabo De Conexão Rádio Externo-Receptor</descr_10>
+	<modelo_10>DG-3</modelo_10>
+	<serial_10>-</serial_10>
+	
+	<qtd_11>01</qtd_11>
+	<descr_11>Suporte Para Antena Externa</descr_11>
+	<modelo_11>Tecnosat</modelo_11>
+	<serial_11>-</serial_11>
+	
+	<qtd_12>01</qtd_12>
+	<descr_12>Cabo De Alimentação Rádio Externo</descr_12>
+	<modelo_12>Hi-Target PW-4</modelo_12>
+	<serial_12>-</serial_12>
+	
+	<qtd_13>01</qtd_13>
+	<descr_13>Cabo de Conexão Rádio Externo-Antena</descr_13>
+	<modelo_13>Hi-Target</modelo_13>
+	<serial_13>-</serial_13>
+	
+	<qtd_13X>01</qtd_13X>
+	<descr_13X>Antena UHF p/ Rádio Externo</descr_13X>
+	<modelo_13X>Hi-Target</modelo_13X>
+	<serial_13X>-</serial_13X>
+	
+	****COLETORA
+																				
+
+	<qtd_14>01</qtd_14>
+	<descr_14>Coletora Hi-Target</descr_14>
+	<modelo_14>iHand 20</modelo_14>
+	<serial_14>11414616</serial_14>
+	
+	<qtd_15>01</qtd_15>
+	<descr_15>Cabo USB para Transferência e Alimentação</descr_15>
+	<modelo_15>-</modelo_15>
+	<serial_15>-</serial_15>
+	
+	<qtd_16>01</qtd_16>
+	<descr_16>Adaptador AC/USB para carregamento</descr_16>
+	<modelo_16>-</modelo_16>
+	<serial_16>-</serial_16>
+	
+	<qtd_17>01</qtd_17>
+	<descr_17>Adaptador Do Suporte P/ Coletora Com Bússola</descr_17>
+	<modelo_17>TC-2</modelo_17>
+	<serial_17>-</serial_17>
+	
+	<qtd_18>01</qtd_18>
+	<descr_18>Suporte Para Coletora</descr_18>
+	<modelo_18>TC-7</modelo_18>
+	<serial_18>-</serial_18>
+	
+	<qtd_19>01</qtd_19>
+	<descr_19>Caneta Stylus</descr_19>
+	<modelo_19>-</modelo_19>
+	<serial_19>-</serial_19>
+	
+	****ACESSORIOS
+																		
+
+	<qtd_20>01</qtd_20>
+	<descr_20>Base Nivelante C/ Prumo óptico</descr_20>
+	<modelo_20>AJ12</modelo_20>
+	<serial_20>-</serial_20>
+	
+	<qtd_21>01</qtd_21>
+	<descr_21>Adaptador P/ Base Nivelante</descr_21>
+	<modelo_21>AL-3</modelo_21>
+	<serial_21>-</serial_21>
+	
+	<qtd_22>03</qtd_22>
+	<descr_22>Adaptador P/ Bastão</descr_22>
+	<modelo_22>-</modelo_22>
+	<serial_22>-</serial_22>
+	
+	<qtd_23>01</qtd_23>
+	<descr_23>Bastão Telescópico</descr_23>
+	<modelo_23>Carbono 2,4m</modelo_23>
+	<serial_23>-</serial_23>
+	
+	<qtd_24>01</qtd_24>
+	<descr_24>Trena</descr_24>
+	<modelo_24>Aço (3m)</modelo_24>
+	<serial_24>-</serial_24>
+	
+	<qtd_25>01</qtd_25>
+	<descr_25>Tripé De Alumínio com Trava Dupla</descr_25>
+	<modelo_25>SJA-40B</modelo_25>
+	<serial_25>-</serial_25>
+	
+	<qtd_26>01</qtd_26>
+	<descr_26>Mini Bastão</descr_26>
+	<modelo_26>-</modelo_26>
+	<serial_26>-</serial_26>
+	
+	<qtd_27>-</qtd_27>
+	<descr_27>Cabo de Alimentação GPS Hi Target</descr_27>
+	<modelo_27>PW-25</modelo_27>
+	<serial_27>-</serial_27>
+	
+	<qtd_28>-</qtd_28>
+	<descr_28>Bipé para Bastão</descr_28>
+	<modelo_28>-</modelo_28>
+	<serial_28>-</serial_28>
+	
+	<qtd_29>-</qtd_29>
+	<descr_29>Conversor Serial-USB</descr_29>
+	<modelo_29>-</modelo_29>
+	<serial_29>-</serial_29>
+
+	*****************************************************
+	
+	<obs_1>---obs1---</obs_1>
+	<obs_2>---obs2---</obs_2>
+	<obs_3>---obs3---</obs_3>
+	<obs_4>---obs4---</obs_4>
+	
+	<dta_saida>01/01/2000</dta_saida>
+	<hora_saida>00:00</hora_saida>
+	
+	<cliente>ACME Ltda.</cliente>
+	<diretor>Ricardo M</diretor>
+	<responsavel>Huescar</responsavel>
+	<telefone>(34)9 0000-0000</telefone>
+	<email>jaoninguem@gmail.com</email>
+	
+	
+	<frete>---</frete>
+	<envio>Retirado na Tecnosat</envio>
+	<valor>R$ 59.990,00</valor>
+	<vendedor>Ricardo Huescar</vendedor>
+	<condicoes>À vista</condicoes>
+	
+
+</itens>
+

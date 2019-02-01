@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PurchaseOrders xmlns="www.sinapse.xyz">  
+  <PurchaseOrder PurchaseOrderNumber="000101" OrderDate="2018-07-12">  
+	
+	<Address Type="dados_cliente">  
+      <Name>Ricardo Marcel Uescar</Name>  
+      <Email>huescar73@gmail.com</Email>  
+      <Cidade>Uberaba</Cidade>  
+      <Estado>MG</Estado>  
+      <Fone>(34)3316-7102</Fone>  
+      <Country>BR</Country>  
+    </Address>  
+    
+	<DeliveryNotes>Observações...</DeliveryNotes>  
+    
+	<Items>  
+	
+      <Item PartNumber="872-AA">  
+        <Quantity>1</Quantity> 
+        <ProductName>Receptor GNSS</ProductName>  
+        <Modelo>V30 RTK</Modelo>  
+ 		<SN>12345678</SN> 
+      </Item>  
+      <Item PartNumber="872-AA">  
+        <Quantity>1</Quantity> 
+        <ProductName>Receptor GNSS</ProductName>  
+        <Modelo>V30 RTK</Modelo>  
+ 		<SN>12345678</SN>
+      </Item>  
+      <Item PartNumber="872-AA">  
+        <Quantity>2</Quantity> 
+        <ProductName>Baterias</ProductName>  
+        <Modelo>BL-5000</Modelo>  
+ 		<SN>-</SN>
+      </Item>  
+ 
+    </Items>  
+	
+  </PurchaseOrder>  
+</PurchaseOrders>  

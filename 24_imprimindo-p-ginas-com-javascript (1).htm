@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Imprimindo páginas com JavaScript &gt; HTML &gt; CódigoFonte.net</title>
+	<meta name="norton-safeweb-site-verification" content="xf67-irqad374upudz8ablyxkm0zkukg9364yyhh2az1m-hgcuhoj8mrpa2u4n-9masi9k656xmt39i4m6ys-fsmxfxfyt9bzncb2hh2uff6yvnb86pm6yxqovyjh09j" />
+	<meta name="verify-v1" content="r7TD/XaSuXmZOQa3faV5hAC29O7ls0YFcFOm4GSsHqk=" />
+	<meta name="msvalidate.01" content="1FAB2A2FC8543E8F1737981ED1FD8310" />
+    <meta name="Identifier-URL" content="https://www.codigofonte.net/dicas/html/24_imprimindo-p-ginas-com-javascript" />
+	<meta name="description" content="Códigos, artigos, dicas para webmasters de todos os níveis. Notícias atualizadas diariamente sobre a Internet e serviços gratuitos, como Mural de Recados, Contadores de Visita e de Cliques." />
+    <meta name="keywords" content="webmasters, codigofonte, códigofonte, código-fonte, códigofonte.net, codigofonte.net, scripts, artigos, dicas, php, asp, cgi, html, css, flash, mural de recados, mural, contadores, noticias, notícias, xhtml" />
+    
+    <meta property="fb:page_id" content="169891109719551"/>
+    <meta property="fb:admins" content="1508196105"/>
+    
+    <meta property="og:site_name" content="CódigoFonte.net"/>
+    <meta property="og:title" content="Imprimindo páginas com JavaScript &gt; HTML &gt; CódigoFonte.net"/>
+    <meta property="og:image" content="https://www.codigofonte.net/img/facebook-logoico.png"/>
+    
+        <meta property="og:type" content="article"/>
+        
+    <meta property="og:url" content="https://www.codigofonte.net/dicas/html/24_imprimindo-p-ginas-com-javascript"/>
+    <meta property="og:description" content="Códigos, artigos, dicas para webmasters de todos os níveis. Notícias atualizadas diariamente sobre a Internet e serviços gratuitos, como Mural de Recados, Contadores de Visita e de Cliques." />
+    
+	<link href="https://static.codigofonte.net/_resources/css/base.css" rel="stylesheet" media="Screen" type="text/css" />
+	<link href="https://static.codigofonte.net/_resources/css/estilo.css" rel="stylesheet" media="Screen" type="text/css" />	
+	    <link rel="shortcut icon" href="https://www.codigofonte.net/favicon.ico" type="image/x-icon" />
+
+    <script language="javascript" type="text/javascript" src="https://static.codigofonte.net/_resources/javascript/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="https://static.codigofonte.net/_resources/javascript/jquery.codigofonte.ui.js"></script>
+	
+		<link rel="alternate" type="application/rss+xml" title="Novidades de CódigoFonte.net  &gt; Dicas de HTML" href="https://www.codigofonte.net/rss/dicas/html" />
+		
+	
+
+
+<script type='text/javascript'>
+ var _ttq = _ttq || [];
+ _ttq.push(['_setAccount', 'TT-9510-9']);
+ (function() {
+ var ts = document.createElement('script'); ts.type = 'text/javascript'; ts.async = true;
+ ts.src =  ('https:' == document.location.protocol ? 'https://' : 'http://') + 'd.tailtarget.com/base.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ts, s);
+ })();
+
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+
+googletag.cmd.push(function() {
+
+googletag.defineSlot('/40135427/codigofonte_Leaderboard', [728, 90], 'div-gpt-ad-1470426877084-0').addService(googletag.pubads());
+googletag.defineSlot('/40135427/codigofonte_Medium_Rectangle', [[250, 250], [300, 250]], 'div-gpt-ad-1470426877084-1').addService(googletag.pubads());
+googletag.defineSlot('/40135427/codigofonte_Wide_Skyscraper', [[160, 600], [120, 600]], 'div-gpt-ad-1470426877084-2').addService(googletag.pubads());
+
+
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+
+</script>
+
+   
+	
+</head>
+<body bgcolor="#e3f4ea">
+
+<!-- <div style="background: url(http://barra.uolhost.com.br/img/uolhost/uolhost_barra_bg.gif); width: 778px;">
+	<script src="http://barra.uolhost.com.br/bpv2_m2.js"></script>
+	<noscript><div>UOL HOST: <a href="http://www.uolhost.com.br/hospedagem-de-sites.html">Hospedagem</a> de sites,
+		<a href="http://www.uolhost.com.br/loja-virtual/">Loja Virtual</a>,
+		<a href="http://www.uolhost.com.br/registro-de-dominio.html">Registro de domínios</a></div>
+	</noscript>
+</div> -->
+	
+<div id="containerTotal" style="margin: 0 auto; width: 990px; position: relative;"> 	
+	
+<!-- container mãe -->
+<div id="containerMae" style="width: 990px">
+
+		<!-- inicio topo -->
+		<div id="topo" style="text-align: center">
+			<div class="logo"><a href="https://www.codigofonte.net"><img src="https://static.codigofonte.net/img/topo_n.jpg" alt="CódigoFonte.net - Porque todo desenvolvedor precisa de um." /></a></div>
+			<div class="barra">
+				<ul>
+					<li class="nop"><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/bar1.gif" /></li>
+					<li class="nop"><a href='https://www.codigofonte.net'><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/barcod.gif" /></a></li>
+					<li><a href="https://www.codigofonte.net/sobre">Sobre</a></li>
+					<li class="nop"><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/bar2.gif" /></li>
+					
+					<li><a href="https://www.codigofonte.net/fale-conosco">Anuncie</a></li>
+					<li class="nop"><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/bar2.gif" /></li>
+					<li><a href="https://www.codigofonte.net/busca">Buscar códigos</a></li>
+					<li class="nop"><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/bar2.gif" /></li>
+					<li><a href="https://www.codigofonte.net/politica-de-privacidade">Privacidade</a></li>
+					<li class="nop"><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/bar2.gif" /></li>
+					<li><a href="https://www.codigofonte.net/fale-conosco">Fale conosco</a></li>
+					<li class="nop"><img alt='CódigoFonte.net' src="https://static.codigofonte.net/img/bar2.gif" /></li>
+				</ul>						
+				<div class="info" style="text-align: right; padding-right: 10px; ">
+					Olá! Saturday, 26 de January de 2019.
+				</div>
+			</div>
+		</div>				
+		
+		<!-- fim topo -->
+		<br />
+		
+		 <!-- <iframe id='af88268c' name='af88268c' src='http://banner.codigofonte.net/ads/www/delivery/afr.php?zoneid=3&amp;cb=3' framespacing='0' frameborder='no' scrolling='no' width='728' height='90'><a href='http://banner.codigofonte.net/ads/www/delivery/ck.php?n=a1a071f2&amp;cb=3' target='_blank'><img src='http://banner.codigofonte.net/ads/www/delivery/avw.php?zoneid=3&amp;cb=3&amp;n=a1a071f2' border='0' alt='' /></a></iframe>  -->
+		<div style="text-align: center; width: 778px">
+		<!-- google ads-->
+
+<!-- <script type="text/JavaScript" language="JavaScript">
+var ADM_webcode = 25664;
+document.write("<scr"+"ipt src='http://nspmotion.com/js/brasil/adm_600.js' type='text/JavaScr"+"ipt'></scr"+"ipt>");
+</script> -->
+
+<!-- parceiros/codigofonte -->
+
+
+
+<!-- /40135427/codigofonte_Leaderboard -->
+<div id='div-gpt-ad-1470426877084-0' style='height:90px; width:728px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470426877084-0'); });
+</script>
+</div>
+
+
+
+
+
+
+<br />
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7370497222948708";
+/* Links do topo */
+google_ad_slot = "0342511949";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+				
+		<div id="containerPrincipal" style="width: 818px">
+
+			<!-- esquerda -->
+			<div id="esquerda">
+				<!-- inicio tabela menu -->				
+				<div class="windowBloco windowMenu">
+					<div class="cabecalho">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+					<div class="conteudoWindow">
+					
+						<ul>
+							<li class="nivel1">Códigos
+								<ul>												
+									<li><a title="Códigos de ASP.NET" href="https://www.codigofonte.net/scripts/aspnet">ASP.NET</a></li>
+									<li><a title="Códigos de ASP" href="https://www.codigofonte.net/scripts/asp">ASP</a></li>
+									<li><a title="Códigos de Cold Fusion" href="https://www.codigofonte.net/scripts/cfml">Cold Fusion</a></li>
+									<li><a title="Códigos de CGI" href="https://www.codigofonte.net/scripts/cgi">CGI</a></li>
+									<li><a title="Códigos de C#" href="https://www.codigofonte.net/scripts/csharp">C#</a></li>
+									<li><a title="Códigos de JavaScript" href="https://www.codigofonte.net/scripts/javascript">JavaScript</a></li>
+									<li><a title="Códigos de Delphi" href="https://www.codigofonte.net/scripts/delphi">Delphi</a></li>
+									<li><a title="Códigos de PHP" href="https://www.codigofonte.net/scripts/php">PHP</a></li>
+									<li><a title="Códigos de VB.NET" href="https://www.codigofonte.net/scripts/vbnet">VB.NET</a></li>
+									<li><a title="Códigos de VBScript" href="https://www.codigofonte.net/scripts/vbscript">VBScript</a></li>
+									<li><a title="Códigos de XML" href="https://www.codigofonte.net/scripts/xml">XML</a></li>											
+								</ul>
+							</li>																			
+							
+							<li class="nivel2">Assistentes
+							<ul>
+									<li><a title="Crie um link para adicionar o favoritos de seu site no navegador de seu visitante" href="https://www.codigofonte.net/assistentes/2_linkfavs">Favoritos</a></li>												
+									<li><a title="Bloqueie o uso do botão direito do mouse" href="https://www.codigofonte.net/assistentes/7_botaodireito">Botão Direito</a></li>
+									<li><a title="Crie caixas de confirmação para, por exemplo, perguntar se o usuário deseja acessar sua página" href="https://www.codigofonte.net/assistentes/4_cxsconfirm">Confirm Box</a></li>
+									<li><a title="Coloque a data atual do seu computador em seu site" href="https://www.codigofonte.net/assistentes/3_data">Datas</a></li>
+									<li><a title="Crie caixas de alerta para seus visitantes" href="https://www.codigofonte.net/assistentes/5_cxsalerta">Caixa de Alerta</a></li>
+									<li><a title="Aplique efeitos de transição em suas páginas" href="https://www.codigofonte.net/assistentes/8_transicao">Transições</a></li>
+									<li><a title="Consulte a tabela de cores em hexadecimal e efeite seu site" href="https://www.codigofonte.net/assistentes/6_cores">Cores em Hexa</a></li>
+									<li><a title="Crie links formatados de acordo com a sua preferência" href="https://www.codigofonte.net/assistentes/1_syslinks">Links</a></li>
+									<li><a title="Veja nossos outros assistentes" href="https://www.codigofonte.net/assistentes">Outros</a></li>											
+								</ul>
+							</li>	
+
+							<li class="nivel3">Artigos/Dicas
+								<ul>
+									<li><a title="Dicas de ASP" href="https://www.codigofonte.net/dicas/asp">ASP</a></li>
+									<li><a title="Dicas de Banco de Dados" href="https://www.codigofonte.net/dicas/bancodedados">Banco de Dados</a></li>
+									<li><a title="Dicas de Blogs" href="https://www.codigofonte.net/dicas/blog">Blogs</a></li>
+									<li><a title="Dicas de CGI/Perl" href="https://www.codigofonte.net/dicas/cgi-perl">CGI/Perl</a></li>
+									<li><a title="Dicas de C#" href="https://www.codigofonte.net/dicas/csharp">C# (CSharp)</a></li>
+									<li><a title="Dicas de CSS" href="https://www.codigofonte.net/dicas/css">CSS</a></li>
+									<li><a title="Dicas de Delphi" href="https://www.codigofonte.net/dicas/delphi">Delphi</a></li>
+									<li><a title="Dicas de .NET" href="https://www.codigofonte.net/dicas/dotnet">.NET</a></li>
+									<li><a title="Dicas de Flash" href="https://www.codigofonte.net/dicas/flash">Flash</a></li>
+									<li><a title="Dicas de Front-Page" href="https://www.codigofonte.net/dicas/front-page">Front-Page</a></li>
+									<li><a title="Dicas de HTML" href="https://www.codigofonte.net/dicas/html">HTML</a></li>
+									<li><a title="Dicas de JavaScript" href="https://www.codigofonte.net/dicas/javascript">JavaScript</a></li>
+									<li><a title="Dicas de PHP" href="https://www.codigofonte.net/dicas/php">PHP</a></li>
+									<li><a title="Dicas de Python" href="https://www.codigofonte.net/dicas/python">Python</a></li>
+									<li><a title="Dicas de Web" href="https://www.codigofonte.net/dicas/web">Web</a></li>
+									<li><a title="Dicas de Web 2.0" href="https://www.codigofonte.net/dicas/web2">Web 2.0</a></li>
+									<li><a title="Dicas de Windows" href="https://www.codigofonte.net/dicas/windows">Windows</a></li>											
+								</ul>
+							</li>	
+							
+							<li class="nivel4">Widgets
+								<ul>
+									<li><a title="Coloque um Mural de Recados em seu site, de gratis!" href="https://www.codigofonte.net/widgets/mural-de-recados">Mural de Recados</a></li>
+									<li><a title="Que tal saber as estatísticas de visita de seu site? Coloque um contador de visitas" href="https://www.codigofonte.net/widgets/contador-de-visitas">Contadores</a></li>
+									<li><a title="Acompanhe as estatísticas de cliques em seus links!" href="https://www.codigofonte.net/widgets/contador-de-cliques">Conta Cliques</a></li>									
+								</ul>
+							</li>	
+							
+							<li class="nivel4">Serviços
+								<ul>
+									<li><a title="Acompanhe diariamente as novidades da Internet aqui no CódigoFonte.net" href="https://www.codigofonte.net/noticias">Notícias</a></li>									
+									<li><a title="Procurando uma imagem para incrementar seu site? Veja nossos WebObjects" href="https://www.codigofonte.net/galeria-de-imagens">Web Objects</a></li>
+									<li><a target="_blank" href="http://www.jogolandia.com.br">Jogos Online</a></li>
+									<li><a title="Acompanhe as atualizações do CódigoFonte.net! Assine nossos feeds" href="https://www.codigofonte.net/rss">Feed RSS</a></li>
+								</ul>								
+							</li>
+							
+							<li class="nivel5">Expediente
+								<ul> 
+									<li><a href="https://www.codigofonte.net/fale-conosco">Anuncie</a></li>
+									<li><a href="http://forum.codigofonte.net"><b>Fórum</b></a></li>
+									<!-- <li><a href="https://www.codigofonte.net/bate-papo">Bate-papo</a></li> -->
+									<li><a href="http://www.orkut.com/Community.aspx?cmm=6319884" target="_blank">Orkut</a></li>
+									<li><a href="http://www.twitter.com/codigofonte" target="_blank"><b>Twitter</b></a></li>
+									<li><a href="https://www.codigofonte.net/divulgue-nos"><b>Divulgue-nos</b></a></li>
+									<li><a href="https://www.codigofonte.net/politica-de-privacidade">Privacidade</a></li>
+									<li><a href="https://www.codigofonte.net/fale-conosco">Contato</a></li>												
+								</ul>
+							</li>	
+							
+							<li class="nivel6">Parceiros
+								<ul>
+									<li><a href="https://www.codigofonte.net/ir.php?l=http://www.fontesgratis.com.br" target="_blank">Fontes Gratis</a></li>
+									<li><a href="http://www.kilobyte.com.br/" target="_blank">KiloByte</a></li>
+									<li><a href="http://www.htmlstaff.org/" target="_blank">HTML Staff</a></li>
+								</ul>
+							</li>	
+							
+							<li class="nivel7"></li>																						
+						</ul>								
+					
+					</div>				
+					<div class="rodapeWindow">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+				</div>		
+                <!-- fim tabela do menu -->			
+			</div>
+			<!-- fim esquerda -->
+			
+			<!-- centro -->
+            <div id="centro" style="width: 505px">
+				<!-- <iframe id='aa8ef32e' name='aa8ef32e' src='http://banner.codigofonte.net/ads/www/delivery/afr.php?zoneid=4&amp;target=_blank&amp;cb=5' framespacing='0' frameborder='no' scrolling='no' width='468' height='60'><a href='http://banner.codigofonte.net/ads/www/delivery/ck.php?n=a9c56705&amp;cb=5' target='_blank'><img src='http://banner.codigofonte.net/ads/www/delivery/avw.php?zoneid=4&amp;cb=5&amp;n=a9c56705' border='0' alt='' /></a></iframe> -->
+				
+				
+
+
+<!-- Topo-Codigo-Fonte -->
+<!-- div id='div-gpt-ad-1336838345632-0' style='width:468px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1336838345632-0'); });
+</script>
+</div -->			
+				
+			
+				
+				
+				<script type="text/javascript"><!--
+google_ad_client = "pub-7370497222948708";
+google_ad_width = 468;
+google_ad_height = 15;
+google_ad_format = "468x15_0ads_al_s";
+google_ad_channel = "5571540730"; 
+google_color_border = "008000";
+google_color_bg = "e3f4ea";
+google_color_link = "000000";
+google_color_url = "008000";
+google_color_text = "006600";
+//--></script>
+<script type="text/javascript"
+  src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+				<br />
+
+				<div class="windowBloco windowMeio">
+					<div class="cabecalho">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+					<div class="conteudoWindow" id="conteudo" style="width: 480px">
+						<!-- inicio do conteudo dentro da coluna CONTEUDO PRINCIPAL -->
+<div id="cabecalhoimg">
+	<img src="https://www.codigofonte.net/img/dicas-codes.gif" alt="Dicas CódigoFonte.net">
+</div>
+
+<div id="hierarquia">
+	<div class="raiz"><a href="/">Conteúdo</a></div>
+	<div class="item"><a href="/dicas/html" title="Veja outras matérias de HTML">HTML</a></div>
+</div>
+
+<div id="ordem">
+	<a href='#' onclick="AdicionarAosMeusFavoritos(24, 'd');" title='Adicionar aos Meus Favoritos'><img src='https://www.codigofonte.net/img/favoritocf.gif' alt='Adicionar aos Meus Favoritos' border=0> Adicionar a Meu favorito</a>
+</div>
+
+<div id="dataArtigo">
+	Wednesday, 05 de November de 2003
+</div>
+
+<!-- google_ad_section_start -->
+
+<h1 class="tituloPagina"><a href="https://www.codigofonte.net/dicas/html/24_imprimindo-p-ginas-com-javascript" title="Imprimindo páginas com JavaScript">Imprimindo páginas com JavaScript</a>
+
+</h1>
+
+<div id="artigo">
+	Olá Pessoa, tudo belezura?<br><br>Bom, hoje irei ensinar como fazer um comando para imprimir páginas através de links ou com um pop-up abrindo-a e imprimindo-a automaticamente.<br><br><U><B>1. Através de links</B></U><br><br>Para isto, usaremos apenas um pequeno código, que será acionado pelo link:  a href="#" onclick="window.print();">Imprimir Página</a> .<br><br>Pronto, só isto. Após seu visitante clicar neste link, irá abrir uma janela de impressão, no qual imprimirá a página atual.<br><br><U><B>2. Com novas janelas e acionando (impressão) automaticamente</B></U><br><br>Bom, neste exemplo, você terá de criar uma outra página, no qual a que será impressa, e nela (nesta nova página) inserir o seguinte código:<br><br> <SCRIPT LANGUAGE="JavaScript">window.print()</SCRIPT> <br><br><I>OBS: O ideal é que você coloque este código (que será executado automaticamente) no final de sua página, pois o mesmo só será executado quando a mesma estiver terminado de carregar.</I><br><br>Pronto, só isto.<br><br>Até mais galera.
+</div>
+
+<!-- google_ad_section_end -->
+
+<br />
+		
+<script src="//connect.facebook.net/pt_BR/all.js#xfbml=1"></script>
+
+<fb:like href="https://www.codigofonte.net/dicas/html/24_imprimindo-p-ginas-com-javascript" layout="button_count" action="like" show_faces="false" width="450"></fb:like>
+
+
+<div id="autorArtigo">
+	<div class="adicionarArtigo">	
+		<a href="https://www.codigofonte.net/codigos/gerenciar" title="Clique para adicionar um novo artigo"><img src='https://www.codigofonte.net/img/addcode.gif' border=0> Enviar um Artigo</a>
+	</div>
+	<div class="nomeAutor">
+		Enviado por: <a href="/~admin" title="Ver perfil de 'admin'"><strong>Emmanuel Alves</strong></a>
+	</div>
+</div>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-9226318239660076";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_format = "300x250_as";
+google_ad_type = "text_image";
+//2007-11-17: Página interna - Matérias
+google_ad_channel = "2019384018";
+google_color_border = "e3f4ea";
+google_color_bg = "fbfdf4";
+google_color_link = "2D8930";
+google_color_text = "00803A";
+google_color_url = "E1771E";
+//-->
+</script>
+<!-- <script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> -->
+
+<div id="outrosArtigos">
+
+	<h2 class="subTituloPagina"><a href="/dicas/html" title="Veja outras matérias de HTML">Outros artigos</a></h2>
+
+	<h2 class="subTituloPaginaDireita"><a href="https://www.codigofonte.net/rss/dicas/html" title="Assine o Feed desta categoria">Assine o Feed desta categoria <img src="https://static.codigofonte.net/img/feedrss.png"></a></h2>
+
+	<ul>
+				<li><a href="/dicas/html/23_link-em-texto-com-descri-o" title="Link em texto com descrição"> Link em texto com descrição</a> - <span class="detalhe">23/10/2003</span></li>
+				<li><a href="/dicas/html/15_veja-como-criar-janelas-pop-up-para-seu-site" title="Veja como criar janelas Pop-up para seu site"> Veja como criar janelas Pop-up para seu site</a> - <span class="detalhe">16/10/2003</span></li>
+				<li><a href="/dicas/html/16_crie-um-redirecionamento-ou-atualiza-o-autom-ticas-de-p-ginas-em-seu-site" title="Crie um redirecionamento ou atualização automáticas de páginas em seu site"> Crie um redirecionamento ou atualização automáticas de páginas em seu site</a> - <span class="detalhe">10/10/2003</span></li>
+				<li><a href="/dicas/html/17_coloque-bordas-em-suas-imagens-de-uma-maneira-diferente" title="Coloque bordas em suas imagens de uma maneira diferente"> Coloque bordas em suas imagens de uma maneira diferente</a> - <span class="detalhe">09/10/2003</span></li>
+				<li><a href="https://www.codigofonte.net/dicas/html" title="Veja outras dicas de HTML">Ver mais...</a></li>
+	</ul>
+
+</div>
+
+<div id="comentarios">
+	<h2 class="subTituloPagina">Comentários do artigo <a href="#adicionar"><span class="detalhe">[Novo comentário]</span></a></h2>	
+	
+	<div id="itens" style="width: 440px; overflow: auto;">
+				<div class="item cor">	
+		<div class="nome">
+				<a href="/~cvgc2011" title="Ver perfil de claudio vinicius gonçalves cabral">claudio vinicius gonçalves cabral</a> 
+				<span class="data">- 20 de March de 2012 - 22:11</span></div>
+		<div class="comentario">Excelente estas dicas. Valeu...</div>
+	</div>
+		</div>
+	
+	<div id="adicionar">
+		<div id="adicionarmensagem">
+						<div class="tcen">Para adicionar um comentário você deve efetuar o <a href="#quadroLogin"><strong>login</strong></a></div>
+					</div>
+	</div>
+</div>				<br class="clear" />		
+				<br />
+		
+		
+
+<!-- /40135427/codigofonte_Medium_Rectangle -->
+<div id='div-gpt-ad-1470426877084-1'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470426877084-1'); });
+</script>
+</div>
+
+
+
+<!--/* OpenX iFrame Tag v2.8.10 */-->
+ 
+
+
+
+				
+				</div>
+				<div class="rodapeWindow">
+					<div class="cantoEsq"></div>
+					<div class="cantoDir"></div>
+				</div>
+			</div>	      
+			
+			<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fcodigofonte&amp;width=465&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=275958562429597" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:465px; height:258px; background: #fff; margin-top: 5px; margin-bottom: 5px;"></iframe>
+
+			<div class="windowBloco windowMeio">
+				<div class="cabecalho">
+					<div class="cantoEsq"></div>
+					<div class="cantoDir"></div>
+				</div>
+				<div class="conteudoWindow">
+					<!-- indicação -->
+					<form id="frmIndicao" action="https://www.codigofonte.net/indica" method="post">
+						<table width="95%">
+							<tr>
+								<td colspan="2" class="tcen detalhe">
+									<strong>Gostou do CódigoFonte.net? Quer indicar a um amigo?<br />Preencha os campos a seguir.</strong>
+								</td>
+							</tr>
+							<tr>
+								<td class="tdir"><strong>Seu Nome:</strong></td>
+								<td><input type="text" id="txtNome" name="txtNome" class="formul" /></td>
+							</tr>
+							<tr>
+								<td class="tdir"><strong>Seu E-mail:</strong></td>
+								<td><input type="text" id="txtEmail" name="txtEmail" class="formul" /></td>
+							</tr>
+							<tr>												
+								<td class="tdir"><strong>E-mail de seu Amigo:</strong></td>
+								<td><input type="text" id="txtAmigo" name="txtAmigo" class="formul" /></td>
+							</tr>  
+							<tr>														
+								<td class="tcen" colspan="2">
+									<div id="enviarIndicacao">
+										<div id="pnlEnviarIndicacao">
+											<input id="btnEnviarIndicacao" type="submit" class="botao" value="Indicar" />
+										</div>															
+									</div>
+								</td>
+							</tr>												
+						</table>												
+						<input type="hidden" name="rl" value="/dicas/html/24_imprimindo-p-ginas-com-javascript" />
+					</form>
+					<!-- fim indicação -->
+				</div>				
+				<div class="rodapeWindow">
+					<div class="cantoEsq"></div>
+					<div class="cantoDir"></div>
+				</div>
+			</div>
+			
+			<div class="windowBloco windowMeio">
+				<div class="cabecalho">
+					<div class="cantoEsq"></div>
+					<div class="cantoDir"></div>
+				</div>
+				<div class="conteudoWindow">
+				<!-- nuvem de tags -->
+				
+								<a href="https://www.codigofonte.net/busca?q=atendimento" title="Procure por atendimento" style="font-size: 22px">atendimento</a>
+								<a href="https://www.codigofonte.net/busca?q=usu%EF%BF%BDrios%20online" title="Procure por usuï¿½rios online" style="font-size: 20px">usuï¿½rios online</a>
+								<a href="https://www.codigofonte.net/busca?q=escola" title="Procure por escola" style="font-size: 20px">escola</a>
+								<a href="https://www.codigofonte.net/busca?q=ordem%20de%20servi%E7o" title="Procure por ordem de serviço" style="font-size: 12px">ordem de serviço</a>
+								<a href="https://www.codigofonte.net/busca?q=validar" title="Procure por validar" style="font-size: 15px">validar</a>
+								<a href="https://www.codigofonte.net/busca?q=senha" title="Procure por senha" style="font-size: 32px">senha</a>
+								<a href="https://www.codigofonte.net/busca?q=livro" title="Procure por livro" style="font-size: 15px">livro</a>
+								<a href="https://www.codigofonte.net/busca?q=player%20de%20radio" title="Procure por player de radio" style="font-size: 17px">player de radio</a>
+								<a href="https://www.codigofonte.net/busca?q=condominio" title="Procure por condominio" style="font-size: 14px">condominio</a>
+								<a href="https://www.codigofonte.net/busca?q=formmail" title="Procure por formmail" style="font-size: 28px">formmail</a>
+								<a href="https://www.codigofonte.net/busca?q=pedido" title="Procure por pedido" style="font-size: 21px">pedido</a>
+								<a href="https://www.codigofonte.net/busca?q=-1%27" title="Procure por -1'" style="font-size: 24px">-1'</a>
+								<a href="https://www.codigofonte.net/busca?q=comentarios" title="Procure por comentarios" style="font-size: 26px">comentarios</a>
+								<a href="https://www.codigofonte.net/busca?q=recado" title="Procure por recado" style="font-size: 24px">recado</a>
+								<a href="https://www.codigofonte.net/busca?q=desencriptar" title="Procure por desencriptar" style="font-size: 24px">desencriptar</a>
+								<a href="https://www.codigofonte.net/busca?q=busca%20de%20arquivos" title="Procure por busca de arquivos" style="font-size: 12px">busca de arquivos</a>
+								<a href="https://www.codigofonte.net/busca?q=c%2B%2B" title="Procure por c++" style="font-size: 15px">c++</a>
+								<a href="https://www.codigofonte.net/busca?q=mural%20recados" title="Procure por mural recados" style="font-size: 20px">mural recados</a>
+								<a href="https://www.codigofonte.net/busca?q=string" title="Procure por string" style="font-size: 21px">string</a>
+								<a href="https://www.codigofonte.net/busca?q=editor%20de%20texto" title="Procure por editor de texto" style="font-size: 16px">editor de texto</a>
+								<a href="https://www.codigofonte.net/busca?q=recomenda" title="Procure por recomenda" style="font-size: 18px">recomenda</a>
+								<a href="https://www.codigofonte.net/busca?q=leilao" title="Procure por leilao" style="font-size: 21px">leilao</a>
+								<a href="https://www.codigofonte.net/busca?q=or%E7amento" title="Procure por orçamento" style="font-size: 13px">orçamento</a>
+								<a href="https://www.codigofonte.net/busca?q=search" title="Procure por search" style="font-size: 26px">search</a>
+								<a href="https://www.codigofonte.net/busca?q=gr%E1ficos" title="Procure por gráficos" style="font-size: 12px">gráficos</a>
+								<a href="https://www.codigofonte.net/busca?q=font" title="Procure por font" style="font-size: 14px">font</a>
+								<a href="https://www.codigofonte.net/busca?q=play" title="Procure por play" style="font-size: 27px">play</a>
+								<a href="https://www.codigofonte.net/busca?q=indique" title="Procure por indique" style="font-size: 23px">indique</a>
+								<a href="https://www.codigofonte.net/busca?q=upload%20de%20imagens" title="Procure por upload de imagens" style="font-size: 21px">upload de imagens</a>
+								<a href="https://www.codigofonte.net/busca?q=venda" title="Procure por venda" style="font-size: 27px">venda</a>
+								
+				<!-- /nuvem de tags -->
+				</div>				
+				<div class="rodapeWindow">
+					<div class="cantoEsq"></div>
+					<div class="cantoDir"></div>
+				</div>
+			</div>
+		
+		</div>
+		<!-- fim centro -->
+		
+			<div id="direita">
+				<!-- direita -->
+				<div class="windowBloco windowDireita">
+					<div class="cabecalho">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+					<div class="conteudoWindow">
+						<!-- inicio conteudo por dentro da tab auxiliar 1 -->
+						<img src="https://www.codigofonte.net/img/buscacf.gif" alt="" /><br />
+						<form action="https://www.codigofonte.net/busca" method="get" class="frmPesquisa">
+						<table border="0" width="100%">
+							<tr>
+								<td><input type="text" name="q" size="15" class="formul" /></td>
+							</tr>
+							<tr>
+								<td><input type="submit" value="Pesquisar" class="botao" /></td>
+							</tr>
+							<tr>
+								<td><a class="detalhes" href="/busca">&raquo; Busca avançada</a></td>
+							</tr>
+						</table>						
+						<!-- fim conteudo por dentro da tab auxiliar 1 -->
+						</form>
+						
+						<br />
+						<a href="http://twitter.com/CodigoFonte" target="_blank"><img src="https://www.codigofonte.net/img/twitter.png" alt="Siga-nos no Twitter" /></a>
+					</div>				
+					<div class="rodapeWindow">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+				</div>		
+				
+				<div id="banner-pesquisa-120x100" align="center" style="padding: 5px 0 5px 0;">
+			    </div>
+			    	
+			    <div class="windowBloco windowDireita">
+					<div class="cabecalho">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+					<div class="conteudoWindow">
+						<!-- menu usuário -->
+						<img src="https://www.codigofonte.net/img/meucf2.gif" alt="" /><br />
+						 <div id="quadroLogin" class="tcen">
+		<form name="cadastro" method="post" action="/">
+	<table border="0" width="100%">
+	<tr>
+		<td class="detalhes">Login:</td> 
+		<td><input type="text" name="usuario" size="9" maxlength="30" class="formul" /></td>
+	</tr>
+	<tr>
+		<td class="detalhes">Senha:</td>
+		<td><input type="password" name="senha" size="9" maxlength="10" class="formul" /></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<input type="hidden" name="rl" value="/dicas/html/24_imprimindo-p-ginas-com-javascript" />
+			<input type="hidden" name="acao" value="login" />
+			<input type="submit" value="Logar-se" class="botao" />			
+		</td>
+	</tr>
+	</table>
+	
+	<a href="/cadastro/recuperar-dados">&raquo; Esqueci Senha</a><br />
+	<a href="/cadastro">&raquo; Cadastre-se</a>
+	
+	</form>
+</div>												<!-- fim menu do usuário -->
+					</div>				
+					<div class="rodapeWindow">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+				</div>		
+
+		
+		
+
+				
+<!-- 				<div class="windowBloco windowDireita">
+					<div class="cabecalho">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+					<div class="conteudoWindow">					                                
+						
+					</div>				
+					<div class="rodapeWindow">
+						<div class="cantoEsq"></div>
+						<div class="cantoDir"></div>
+					</div>
+				</div>	 -->
+			</div>
+			<!-- fim direita -->		
+	<br class="clear" />
+	<br class="clear" />	
+    <!-- início do código para o mural CódigoFonte.net -->
+	<!-- final do código para o mural CódigoFonte.net -->
+	
+	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+            <td width="3" valign="middle">
+				<img src="https://www.codigofonte.net/img/bar2.gif" alt="" /></td>
+			<td background="https://www.codigofonte.net/img/barra.gif" style="text-align: center; color: white; font: bold 9px Verdana;">
+                <a href="https://www.codigofonte.net" target="_blank"><b style='color: white; font: bold 9px Verdana;'>CodigoFonte.net</b></a> 
+				&raquo; <a href="http://www.meumural.com.br" target="_blank"><b style='color: white; font: bold 9px Verdana;'>Meu Mural</b></a> 
+				<!-- &raquo; <a href="http://www.pelamordedeus.com.br" target="_blank"><b style='color: white; font: bold 9px Verdana;'>PelamorDeDeus</b></a>  -->
+				&raquo; <a href="http://www.competiva.com.br" target="_blank" style="color: #fff; font: bold 9px Verdana;" title="Competiva Agência de Criação de Sites em João Pessoa">Competiva - Criação de Sites</b></a> 
+				» Todos os Direitos Reservados &copy; 2002/2010
+            </td>
+        </tr>
+    </table>
+	
+	</div>
+	<!-- fim container principal -->	
+		
+</div>
+<!-- fim container mãe -->
+
+</div> 
+
+<!-- container publicidade -->
+<div id="publicidade1024" style="right: 0; left: auto; top: 107px">
+	<!-- div id="compredetudo">
+		<p>Procurando Notebooks, Câmeras Digitais, iPhones?</p>
+		<p><a href="http://www.compredetudo.com" target="_blank" title="Compre Notebooks, câmeras ou iphones">CompreDeTudo.com</a></p>
+	</div -->
+		
+	<div id="banner">
+	
+
+
+<!-- /40135427/codigofonte_Wide_Skyscraper -->
+<div id='div-gpt-ad-1470426877084-2'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470426877084-2'); });
+</script>
+</div>
+
+<br />					
+
+<a href="https://www.digitalafiliados.com/af/1" target="_blank"><img src="https://news.digitalafiliados.srv.br/banners/digitalafiliados/banner-120x600.gif" border="0"></a>
+
+
+
+
+<br /><br />
+	
+<div>
+
+<!-- <script type="text/javascript">
+    sub_format = "sky";
+    sub_franq = "140155";
+    sub_keywords = "html,HTML,,computadores,livros,notebook,mp3,celular";
+</script>
+<script type="text/javascript" src="http://www.submarino.com.br/afiliados/vitrine.js"></script> -->
+
+<!-- <a href="http://www.submarino.com.br">Submarino.com.br</a></div><div style="margin-top: 10px; "><script language="JavaScript1.1" type="text/javascript" src=http://www.submarino.com.br/afiliados/get_banner.asp?tipo=sky&franq=140155></script></div> -->
+
+<!-- div><script language="JavaScript1.1" type="text/javascript" src="http://www.submarino.com.br/afiliados/get_banner.asp?tipo=sky2&franq=140155"></script></div -->
+
+
+	<!-- script language="JavaScript" src="http://contador.codigofonte.net/log.php?id=1&d=oculto"></script -->
+	
+	</div>
+</div>
+<!-- div -->
+
+	
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-443168-1', 'codigofonte.net');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+	
+</body>
+</html>
+
+<!-- servidor2 -->
