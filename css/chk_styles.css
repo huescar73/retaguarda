@@ -26,6 +26,14 @@ body {
     padding: 0px;
 }
 
+div{
+	page-size: 975px 1380px;
+	margin: 0px;
+	padding: 0px;
+	column-width: 975px;
+	page-break-after: auto;
+	}
+	
 table {
     border-collapse: collapse;
     background-color: transparent;
